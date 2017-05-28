@@ -13,6 +13,10 @@ Library for downloading data using NSOpearation.
 
 - Initialization 
 
+Clone NSOperationDownloader folder into your project.
+
+#import "VKDownloadManager.h"
+
 @property (nonatomic, strong) VKDownloadManager *downloader;
 
 [downloader downloadWithURL:url
@@ -31,6 +35,8 @@ Library for downloading data using NSOpearation.
 // for checking session state
 - (BOOL) isFinished; 
 - (BOOL) isExecuting;
+
+Also, you can run example project "downloader".
 
 Developed By
 ------------
