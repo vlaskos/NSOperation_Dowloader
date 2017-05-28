@@ -3,7 +3,7 @@
 * [Demo](#demo)
 * [Usage example](#usage-example)
 
-Library for downloading data using NSOpearation. 
+A library for downloading data using NSOpearation. 
 
 # Demo
 
@@ -26,7 +26,7 @@ Clone NSOperationDownloader folder into your project.
                 NSLog(@"downloaded");
 }];
 
-- You can use some methods for manipulation with the session: 
+- You can use methods below for manipulation with the session: 
 
 // stop sessions
 - (void) stop;
@@ -36,7 +36,7 @@ Clone NSOperationDownloader folder into your project.
 - (BOOL) isFinished; 
 - (BOOL) isExecuting;
 
-Also, you can run example project "downloader".
+Also, you can run the test project "downloader".
 
 Developed By
 ------------
