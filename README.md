@@ -15,16 +15,16 @@ A library for downloading data using NSOpearation.
 
 Clone NSOperationDownloader folder into your project.
 
-#import "VKDownloadManager.h"
+            #import "VKDownloadManager.h"
 
-@property (nonatomic, strong) VKDownloadManager *downloader;
+            @property (nonatomic, strong) VKDownloadManager *downloader;
 
-[downloader downloadWithURL:url
-            withCompletion:^(NSData *data, NSURLResponse *response, NSError *error) {
-            
-                self.customImageView.image = [UIImage imageWithData:data];
-                NSLog(@"downloaded");
-}];
+            [downloader downloadWithURL:url
+                         withCompletion:^(NSData *data, NSURLResponse *response, NSError *error) {
+
+                        self.customImageView.image = [UIImage imageWithData:data];
+                        NSLog(@"downloaded");
+            }];
 
 - You can use methods below for manipulation with the session: 
 
